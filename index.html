@@ -9,7 +9,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css"/>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
@@ -25,16 +25,13 @@
 								<hr />
 								<p>A Texas based gaming crew</p>
 							</header>
-							<footer>
-								<a href="#banner" class="button circled scrolly">Players</a>
-							</footer>
 						</div>
 
             <!-- Nav -->
 						<nav id="nav">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li><a href="calendar.html">Calendar</a></li>
+								<li><a href="#roster">Roster</a></li>
 								<li><a href="#twitch">Twitch</a></li>
 								<li><a href="games.html">Games</a></li>
 								<li><a href="contact.html">Contact Us</a></li>
@@ -44,13 +41,16 @@
 				</div> 
 
 			<!-- Banner -->
+			<a name="roster">
 				<section id="banner">
 					<header>
 						<h2>Hi. You're looking at players of <strong>EGO BOOST GAMING</strong>.</h2>
 					</header>
 				</section>
+            </a>
 
 			<!-- Carousel -->
+			<a href="#">
 				<section class="carousel">
 					<div class="reel">
 
@@ -151,12 +151,14 @@
 						</article>
 					</div>
 				</section>
+            </a>
 
 			<!-- Main -->
+			<a name="twitch">
 				<div class="wrapper style2">
 
 					<article id="main" class="container special">
-						<a href="#twitch" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+						<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
 						<header>
 							<h2><a href="#">Sed massa imperdiet magnis</a></h2>
 							<p>
@@ -178,8 +180,8 @@
 							<a href="#" class="button">Continue Reading</a>
 						</footer>
 					</article>
-
 				</div>
+            </a>
 
 			<!-- Features -->
 				<div class="wrapper style1">
@@ -376,20 +378,16 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+        <!-- Google Analytics -->
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+              ga('create', 'UA-89592207-1', 'auto');
+              ga('send', 'pageview');
+            </script>
+            
 	</body>
-	
-<!-- Google Analytics -->
-	<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-89592207-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-	
-	
 </html>
