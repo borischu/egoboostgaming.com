@@ -3040,3 +3040,14 @@
 					}
 
 	}
+
+
+#twitchPlayer, iframe {
+    display: inline-block;
+    margin: 0;
+}
+
+
+#twitch {
+    padding-top: 100px
+}
