@@ -22,7 +22,7 @@
 						<div class="inner">
 							<header>
 								<h1><a id="logo">Ego Boost Gaming</a></h1>
-								<hr />
+								<hr>
 								<p>A Texas based gaming crew</p>
 							</header>
 						</div>
@@ -30,11 +30,11 @@
             <!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.html">Home</a></li>
+								<li><a href="/">Home</a></li>
 								<li><a href="#roster">Roster</a></li>
 								<li><a href="#twitch">Twitch</a></li>
-								<li><a href="games.html">Games</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="/games">Games</a></li>
+								<li><a href="/contact.html">Contact Us</a></li>
 							</ul>
 						</nav>
 
@@ -155,36 +155,16 @@
             
 <!--            work in progress-->
 			<!-- Main -->
-			<a name="twitch">
-				<div id="twitch">
-                <section id="banner">
-					<header>
-						<h2>Twitch Stream of <strong>EGO BOOST GAMING</strong>.</h2>
-					</header>
-				</section>
-				    <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
-                    <div id="twitchPlayer">
-                        <script type="text/javascript">
-                            var options = {
-                                width: 1280,
-                                height: 720,
-                                channel: "egoboostgaming", 
-                                //video: "{VIDEO_ID}"       
-                            };
-                            var player = new Twitch.Player("twitchPlayer", options);
-                            player.setVolume(0.5);
-                            player.addEventListener(Twitch.Player.PAUSE, () => { console.log('Player is paused!'); });
-                        </script>
-                    </div>
-                    <iframe frameborder="0" 
-                        scrolling="yes" 
-                        id="chat_embed" 
-                        src="http://www.twitch.tv/egoboostgaming/chat" 
-                        height="720" 
-                        width="380">
-                    </iframe>
-				</div>
-            </a>
+			<div id="twitch" class="wrapper style2">
+                <a name="twitch">
+                    <section id="banner">
+                        <header>
+                            <h2>Twitch Stream of <strong>EGO BOOST GAMING</strong>.</h2>
+                        </header>
+                    </section>
+               <iframe class="videoplayer" src="http://player.twitch.tv/?channel=egoboostgaming" height="100%" width="100%" frameborder="0" scrolling="no"></iframe>
+                </a>
+            </div>
 
 			<!-- Features -->
 				<div class="wrapper style1">

@@ -3042,10 +3042,19 @@
 	}
 
 
-#twitchPlayer, iframe {
-    display: inline-block;
-    margin: 0;
+
+
+
+
+
+#twitchPlayer {
+    align-content: center
 }
 
 
 
+
+#twitch {
+    height: 720px;
+    width: auto;
+}
