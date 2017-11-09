@@ -2085,7 +2085,7 @@
 	.wrapper {
 		background: #fff;
 		margin: 0 0 2em 0;
-		padding: 6em 0 6em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		.wrapper.style2 {
@@ -3041,20 +3041,24 @@
 
 	}
 
-
-
-
-
-
-
 #twitchPlayer {
     align-content: center
 }
 
-
-
-
 #twitch {
     height: 720px;
     width: auto;
+}
+
+#greybg {
+	background-color: #4f85f3;
+}
+#whitebg {
+	color: #f9f9f9;
+}
+#fontmedium {
+	font-size: 2em;
+}
+#alignmiddle {
+	vertical-align: middle;
 }
